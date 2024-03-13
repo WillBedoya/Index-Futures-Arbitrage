@@ -1,6 +1,7 @@
 # Index Futures Arbitrage
 ## Brief Description
 Python script that seeks to find arbitrage opportunities between an index and its respective futures contract (i.e. DJI vs. YM).
+
 Libraries used: ib_insync, numpy, math, datetime, yfinance
 
 ## More Detailed Description
