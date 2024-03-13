@@ -3,7 +3,7 @@
 Python script that seeks to find arbitrage opportunities between an index and its respective futures contract (i.e. DJI vs. YM).
 Libraries used inlcude ib_insync, numpy, math, yfinance.
 
-## More Detailed Description
+## Detailed Description
 The script calculates the fair value of a futures contract and initiates a trade if it identifies the contract as overpriced or underpriced relative to the index, taking into account the bid/ask spreads. Inventory is managed by only having exposure to +/-1 contract at any time. The value of the index is priced using bid/ask prices of the stocks in the index, since the quoted index price just considers each underlying stock's market price. This market price represents the index less accurately than a calculation based on real-time bid/ask values for each component of the index.
 
 ## Challenges
